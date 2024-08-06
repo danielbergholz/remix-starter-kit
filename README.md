@@ -1,40 +1,16 @@
-# Welcome to Remix!
+# What is this project?
 
-- 📖 [Remix docs](https://remix.run/docs)
+Remix starter kit is a project template that helps you get started with Remix. It includes a few common configurations that you might want to use in your project, such as:
 
-## Development
-
-Run the dev server:
-
-```shellscript
-npm run dev
-```
-
-## Deployment
-
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+- Language: [TypeScript](https://www.typescriptlang.org/)
+- Framework: [Remix](https://remix.run/)
+- Styling: [Tailwind CSS](https://tailwindcss.com/)
+- Linting/Formatting: [Eslint](https://eslint.org/)
+- ORM: [Prisma](https://www.prisma.io/) (coming soon)
+- Database: [SQLite](https://www.sqlite.org/) (coming soon)
+- Auth: [Magic Links](https://postmarkapp.com/blog/magic-links) (coming soon)
+- E2E Testing: [Playwright](https://playwright.dev/) (coming soon)
+- Unit Testing: [Vitest](https://vitest.dev/) (coming soon)
+- Deployment: [Fly](https://fly.io/) (coming soon)
+- CI/CD: [GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions) (coming soon)
+- [DependaBot](https://github.com/dependabot)
